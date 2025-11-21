@@ -34,19 +34,15 @@ const About = () => {
 
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Nascido em Portugal Central, mudei-me para o Canadá (Toronto) ainda jovem, onde cresci até aos 17 anos. 
-                Ao regressar a Portugal, completei os meus estudos e iniciei a minha carreira como agente imobiliário.
+                {t.about.text1}
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                A crise financeira de 2009 levou-me a expandir os serviços que ofereço. Desde então, tenho ajudado os 
-                meus clientes com contratos de telecomunicações, internet e telemóvel, bem como hipotecas. Há 3 anos, 
-                também me tornei corretor de seguros.
+                {t.about.text2}
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                Graças ao meu excelente inglês, especializei-me em ajudar imigrantes de língua inglesa com as suas 
-                necessidades, <strong className="text-orange-600">não cobrando aos meus clientes pelos serviços de consultoria</strong>.
+                {t.about.text3}
               </p>
 
               <div className="mt-8 space-y-4">
