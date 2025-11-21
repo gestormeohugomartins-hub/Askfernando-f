@@ -68,6 +68,9 @@ const Header = () => {
                 {item.label}
               </button>
             ))}
+            <div className="px-4 pt-2 border-t border-gray-700 mt-3">
+              <LanguageSelector />
+            </div>
           </div>
         )}
       </nav>
