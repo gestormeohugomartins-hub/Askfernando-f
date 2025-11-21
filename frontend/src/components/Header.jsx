@@ -44,6 +44,7 @@ const Header = () => {
                 {item.label}
               </button>
             ))}
+            <LanguageSelector />
           </div>
 
           {/* Mobile Menu Button */}
