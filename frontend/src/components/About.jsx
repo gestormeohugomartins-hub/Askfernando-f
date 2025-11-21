@@ -1,11 +1,14 @@
 import { CheckCircle } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
 
 const About = () => {
+  const { t } = useLanguage();
+  
   const highlights = [
-    'Nascido em Portugal Central, cresceu no Canadá (Toronto)',
-    'Experiência em imobiliário, telecomunicações e seguros',
-    'Especializado em atender clientes de língua inglesa',
-    'Serviços de consultoria sem custos para os clientes'
+    t.about.highlight1,
+    t.about.highlight2,
+    t.about.highlight3,
+    t.about.highlight4
   ];
 
   return (
