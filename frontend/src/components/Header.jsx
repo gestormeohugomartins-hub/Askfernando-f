@@ -1,8 +1,11 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
+import LanguageSelector from './LanguageSelector';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useLanguage();
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -13,11 +16,11 @@ const Header = () => {
   };
 
   const menuItems = [
-    { label: 'Início', section: 'hero' },
-    { label: 'Sobre Mim', section: 'about' },
-    { label: 'Serviços', section: 'services' },
-    { label: 'Testemunhos', section: 'testimonials' },
-    { label: 'Contacto', section: 'contact' }
+    { label: t.header.home, section: 'hero' },
+    { label: t.header.about, section: 'about' },
+    { label: t.header.services, section: 'services' },
+    { label: t.header.testimonials, section: 'testimonials' },
+    { label: t.header.contact, section: 'contact' }
   ];
 
   return (
