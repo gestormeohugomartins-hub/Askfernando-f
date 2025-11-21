@@ -17,7 +17,7 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-              Sobre <span className="text-orange-600">Mim</span>
+              {t.about.title} <span className="text-orange-600">{t.about.titleHighlight}</span>
             </h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
           </div>
