@@ -21,20 +21,19 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-6 inline-block">
             <span className="px-4 py-2 bg-orange-500/20 border border-orange-500/30 rounded-full text-orange-400 text-sm font-medium backdrop-blur-sm">
-              Multi serviços ao seu dispor
+              {t.hero.badge}
             </span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Facilitamos a Sua Vida
+            {t.hero.title}
             <span className="block mt-2 bg-gradient-to-r from-blue-400 to-orange-500 bg-clip-text text-transparent">
-              em Portugal
+              {t.hero.titleHighlight}
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Especialista em ajudar imigrantes de língua inglesa com telecomunicações, seguros, imobiliário e hipotecas. 
-            Serviços de consultoria sem custos adicionais.
+            {t.hero.subtitle}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -43,7 +42,7 @@ const Hero = () => {
               size="lg"
               className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-6 text-lg font-semibold rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 group"
             >
-              Entre em Contacto
+              {t.hero.ctaPrimary}
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             
@@ -53,22 +52,22 @@ const Hero = () => {
               size="lg"
               className="bg-transparent border-2 border-white/30 text-white hover:bg-white/10 hover:border-white/50 px-8 py-6 text-lg font-semibold rounded-lg backdrop-blur-sm transition-all duration-300"
             >
-              Conheça os Serviços
+              {t.hero.ctaSecondary}
             </Button>
           </div>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
               <div className="text-3xl font-bold text-orange-500 mb-2">15+</div>
-              <div className="text-gray-300">Anos de Experiência</div>
+              <div className="text-gray-300">{t.hero.stat1}</div>
             </div>
             <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
               <div className="text-3xl font-bold text-blue-400 mb-2">100%</div>
-              <div className="text-gray-300">Atendimento em Inglês</div>
+              <div className="text-gray-300">{t.hero.stat2}</div>
             </div>
             <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
               <div className="text-3xl font-bold text-orange-500 mb-2">500+</div>
-              <div className="text-gray-300">Clientes Satisfeitos</div>
+              <div className="text-gray-300">{t.hero.stat3}</div>
             </div>
           </div>
         </div>
