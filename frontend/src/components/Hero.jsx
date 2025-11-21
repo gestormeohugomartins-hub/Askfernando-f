@@ -1,7 +1,10 @@
 import { ArrowRight } from 'lucide-react';
 import { Button } from './ui/button';
+import { useLanguage } from '../context/LanguageContext';
 
 const Hero = () => {
+  const { t } = useLanguage();
+  
   const scrollToContact = () => {
     const element = document.getElementById('contact');
     if (element) {
