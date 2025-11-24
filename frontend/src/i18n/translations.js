@@ -213,7 +213,7 @@ export const translations = {
       text2: 'A crise financeira de 2009 levou-me a expandir os serviços que ofereço. Desde então, tenho ajudado os meus clientes com contratos de telecomunicações, internet e telemóvel, bem como hipotecas. Há 3 anos, também me tornei corretor de seguros.',
       text3: 'Graças ao meu excelente inglês, especializei-me em ajudar imigrantes de língua inglesa com as suas necessidades, não cobrando aos meus clientes pelos serviços de consultoria.',
       highlight1: 'Nascido em Portugal Central, cresceu no Canadá (Toronto)',
-      highlight2: 'Experiência em imobiliário, telecomunicações e seguros',
+      highlight2: 'Experiência em telecomunicações, seguros e hipotecas',
       highlight3: 'Especializado em atender clientes de língua inglesa',
       highlight4: 'Serviços de consultoria sem custos para os clientes'
     },
