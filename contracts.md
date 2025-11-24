@@ -1,9 +1,15 @@
-# Contrato de Desenvolvimento - AskFernando.pt
+# AskFernando.pt - Documentação Completa
 
 ## Visão Geral
-Site de serviços interativo para o Fernando Mendes, especialista em ajudar imigrantes de língua inglesa com diversos serviços em Portugal.
+Site profissional multilíngue de serviços para imigrantes em Portugal, especializado em telecomunicações, seguros, imobiliário e hipotecas.
 
-## Frontend (Concluído)
+## 🌐 Sistema Multilíngue
+- **Idiomas**: Inglês (padrão), Francês, Português
+- **Seleção**: Bandeiras clicáveis no header
+- **Persistência**: Idioma salvo em localStorage
+- **Dinâmico**: Todos os componentes traduzidos automaticamente
+
+## ✅ Frontend (Concluído)
 ### Estrutura de Componentes
 - **Header.jsx**: Navegação fixa com menu responsivo
 - **Hero.jsx**: Seção hero com gradiente azul/laranja e estatísticas
