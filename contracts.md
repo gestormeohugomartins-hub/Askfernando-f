@@ -93,9 +93,31 @@ class Testimonial(BaseModel):
     approved: bool = False
 ```
 
-## Integração Frontend-Backend
+## 🔐 Painel Admin
+**URL**: askfernando.pt/backend (quando em produção)
+**Credenciais**:
+- Username: `Askfernandoadmin`
+- Password: `Askfernando2025*`
 
-### Passo 1: Substituir Mock Data
+### Endpoints Admin Disponíveis:
+- GET /api/admin/contact-messages - Listar mensagens
+- PATCH /api/admin/contact-messages/{id} - Atualizar status
+- GET /api/admin/testimonials - Listar todos testemunhos
+- POST /api/admin/testimonials - Criar novo testemunho
+- PATCH /api/admin/testimonials/{id} - Atualizar testemunho
+- DELETE /api/admin/testimonials/{id} - Deletar testemunho
+- POST /api/admin/seed-testimonials - Popular banco (já executado)
+
+## 📧 Sistema de Email
+**Configurado e Funcionando**:
+- Servidor SMTP: mail.askfernando.pt (porta 465, SSL)
+- Email de saída: contactos@askfernando.pt
+- Email destino: fernandomendes@askfernando.pt
+- Template HTML profissional com informações completas
+
+## ✅ Integração Frontend-Backend (Completa)
+
+### Testemunhos:
 **Arquivo**: `/app/frontend/src/components/Testimonials.jsx`
 ```javascript
 // Remover: import { mockTestimonials } from '../utils/mockData';
