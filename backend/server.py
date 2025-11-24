@@ -275,6 +275,47 @@ async def delete_testimonial(
         )
 
 
+@api_router.post("/admin/seed-testimonials")
+async def seed_testimonials(admin: str = Depends(verify_admin)):
+    """Seed initial testimonials (admin only)"""
+    try:
+        testimonials_data = [
+            # English
+            {"id": "en-1", "name": "Carolyn Swayze", "location": "Portugal", "text": "I cannot thank Fernando enough for his assistance in getting me set up with a package of mobile phone, Wi-Fi, and TV connection. Fernando explained everything to me every step of the way in clear terms, and I consider his help invaluable.", "rating": 5, "language": "en", "approved": True, "created_at": datetime.utcnow()},
+            {"id": "en-2", "name": "Ivan", "location": "Portugal", "text": "Fernando helped my family get established and settle down in Portugal. Fernando is a one-stop-shop for the important things like insurance, internet and cell phone service. His services saved me a lot of time and hassles.", "rating": 5, "language": "en", "approved": True, "created_at": datetime.utcnow()},
+            {"id": "en-3", "name": "Russell Townsend", "location": "Portugal", "text": "Couldn't have been more efficient. Contracted on Friday, mobile numbers and internet installed by Saturday afternoon. Flawless service and communication. Exactly what you need coming to a new country.", "rating": 5, "language": "en", "approved": True, "created_at": datetime.utcnow()},
+            {"id": "en-4", "name": "Jim Leff", "location": "Portugal", "text": "Fernando really knows his stuff, he's passionately expert on the topic (he explains EVERYTHING super clearly), and his service is so excellent. Hire Fernando WITHOUT RESERVATION!", "rating": 5, "language": "en", "approved": True, "created_at": datetime.utcnow()},
+            # Portuguese
+            {"id": "pt-1", "name": "Carolyn Swayze", "location": "Portugal", "text": "Não consigo agradecer o suficiente ao Fernando pela sua assistência na configuração do meu pacote de telemóvel, Wi-Fi e ligação de TV. O Fernando explicou-me tudo em termos claros.", "rating": 5, "language": "pt", "approved": True, "created_at": datetime.utcnow()},
+            {"id": "pt-2", "name": "Ivan", "location": "Portugal", "text": "O Fernando ajudou a minha família a estabelecer-se em Portugal. É uma loja única para coisas importantes como seguros, internet e serviço de telemóvel.", "rating": 5, "language": "pt", "approved": True, "created_at": datetime.utcnow()},
+            {"id": "pt-3", "name": "Russell Townsend", "location": "Portugal", "text": "Não poderia ter sido mais eficiente. Contratado na sexta-feira, números de telemóvel e internet instalados no sábado à tarde. Serviço impecável.", "rating": 5, "language": "pt", "approved": True, "created_at": datetime.utcnow()},
+            # French
+            {"id": "fr-1", "name": "Carolyn Swayze", "location": "Portugal", "text": "Je ne peux pas assez remercier Fernando pour son aide dans la configuration de mon forfait téléphone mobile, Wi-Fi et connexion TV. Fernando m'a tout expliqué clairement.", "rating": 5, "language": "fr", "approved": True, "created_at": datetime.utcnow()},
+            {"id": "fr-2", "name": "Ivan", "location": "Portugal", "text": "Fernando a aidé ma famille à s'installer au Portugal. C'est un guichet unique pour les choses importantes comme l'assurance, Internet et le service de téléphonie mobile.", "rating": 5, "language": "fr", "approved": True, "created_at": datetime.utcnow()},
+            {"id": "fr-3", "name": "Russell Townsend", "location": "Portugal", "text": "Ne pourrait pas être plus efficace. Contracté le vendredi, numéros de mobile et Internet installés le samedi après-midi. Service impeccable.", "rating": 5, "language": "fr", "approved": True, "created_at": datetime.utcnow()}
+        ]
+        
+        # Check if already seeded
+        count = await db.testimonials.count_documents({})
+        if count > 0:
+            return {"success": True, "message": f"Database already has {count} testimonials", "inserted": 0}
+        
+        # Insert testimonials
+        result = await db.testimonials.insert_many(testimonials_data)
+        
+        return {
+            "success": True,
+            "message": "Testimonials seeded successfully",
+            "inserted": len(result.inserted_ids)
+        }
+    except Exception as e:
+        logger.error(f"Error seeding testimonials: {str(e)}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to seed testimonials: {str(e)}"
+        )
+
+
 # Include the router in the main app
 app.include_router(api_router)
 
