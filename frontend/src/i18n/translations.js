@@ -119,7 +119,7 @@ export const translations = {
       text2: 'La crise financière de 2009 m\'a conduit à élargir les services que j\'offre. Depuis, j\'aide mes clients avec des contrats de télécommunications, forfaits internet et mobile, ainsi que des hypothèques. Il y a 3 ans, je suis également devenu courtier d\'assurance.',
       text3: 'Grâce à mon excellent anglais, je me suis spécialisé dans l\'aide aux immigrants anglophones avec leurs besoins, sans facturer mes clients pour les services de conseil.',
       highlight1: 'Né au Portugal Central, a grandi au Canada (Toronto)',
-      highlight2: 'Expérience en immobilier, télécommunications et assurances',
+      highlight2: 'Expérience en télécommunications, assurances et hypothèques',
       highlight3: 'Spécialisé dans le service aux clients anglophones',
       highlight4: 'Services de conseil sans frais pour les clients'
     },
