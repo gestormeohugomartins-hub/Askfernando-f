@@ -163,9 +163,13 @@ testimonials_data = [
 async def seed_testimonials():
     print("🌱 Seeding testimonials...")
     
-    # Clear existing testimonials
-    result = await db.testimonials.delete_many({})
-    print(f"✓ Cleared {result.deleted_count} existing testimonials")
+    try:
+        # Clear existing testimonials
+        result = await db.testimonials.delete_many({})
+        print(f"✓ Cleared {result.deleted_count} existing testimonials")
+    except Exception as e:
+        print(f"Note: {e}")
+        print("Continuing with insert...")
     
     # Insert new testimonials
     result = await db.testimonials.insert_many(testimonials_data)
@@ -176,6 +180,9 @@ async def seed_testimonials():
     
     print("\n✅ Database seeding completed!")
 
-if __name__ == "__main__":
-    asyncio.run(seed_testimonials())
+async def main():
+    await seed_testimonials()
     client.close()
+
+if __name__ == "__main__":
+    asyncio.run(main())
