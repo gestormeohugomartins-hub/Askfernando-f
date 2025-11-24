@@ -83,7 +83,7 @@ export const translations = {
       errorDescription: 'Please try again.'
     },
     footer: {
-      description: 'Specialist in services for immigrants in Portugal. Telecommunications, insurance, real estate and mortgages with personalized service in English.',
+      description: 'Specialist in services for immigrants in Portugal. Telecommunications, insurance and mortgages with personalized service in English.',
       quickLinks: 'Quick Links',
       servicesTitle: 'Services',
       copyright: 'All rights reserved',
