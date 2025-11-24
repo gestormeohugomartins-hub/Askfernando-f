@@ -21,13 +21,6 @@ const Services = () => {
       color: 'from-orange-500 to-orange-600'
     },
     {
-      icon: <Home className="h-12 w-12" />,
-      title: t.services.realEstate.title,
-      description: t.services.realEstate.description,
-      image: 'https://images.unsplash.com/photo-1497215842964-222b430dc094',
-      color: 'from-blue-600 to-blue-700'
-    },
-    {
       icon: <DollarSign className="h-12 w-12" />,
       title: t.services.mortgages.title,
       description: t.services.mortgages.description,
