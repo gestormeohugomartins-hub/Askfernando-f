@@ -21,7 +21,6 @@ const Footer = () => {
   const services = [
     t.services.telecom.title,
     t.services.insurance.title,
-    t.services.realEstate.title,
     t.services.mortgages.title
   ];
 
