@@ -199,7 +199,7 @@ export const translations = {
       badge: 'Multi serviços ao seu dispor',
       title: 'Facilitamos a Sua Vida',
       titleHighlight: 'em Portugal',
-      subtitle: 'Especialista em ajudar imigrantes de língua inglesa com telecomunicações, seguros, imobiliário e hipotecas. Serviços de consultoria sem custos adicionais.',
+      subtitle: 'Especialista em ajudar imigrantes de língua inglesa com telecomunicações, seguros e hipotecas. Serviços de consultoria sem custos adicionais.',
       ctaPrimary: 'Entre em Contacto',
       ctaSecondary: 'Conheça os Serviços',
       stat1: 'Anos de Experiência',
