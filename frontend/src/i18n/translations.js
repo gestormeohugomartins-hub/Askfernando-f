@@ -11,7 +11,7 @@ export const translations = {
       badge: 'Multi services at your disposal',
       title: 'We Make Your Life',
       titleHighlight: 'Easier in Portugal',
-      subtitle: 'Specialist in helping English-speaking immigrants with telecommunications, insurance, real estate and mortgages. Consulting services at no additional cost.',
+      subtitle: 'Specialist in helping English-speaking immigrants with telecommunications, insurance and mortgages. Consulting services at no additional cost.',
       ctaPrimary: 'Get in Touch',
       ctaSecondary: 'Discover Services',
       stat1: 'Years of Experience',
