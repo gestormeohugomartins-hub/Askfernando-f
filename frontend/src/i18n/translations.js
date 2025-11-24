@@ -177,7 +177,7 @@ export const translations = {
       errorDescription: 'Veuillez réessayer.'
     },
     footer: {
-      description: 'Spécialiste en services pour immigrants au Portugal. Télécommunications, assurances, immobilier et hypothèques avec service personnalisé en anglais.',
+      description: 'Spécialiste en services pour immigrants au Portugal. Télécommunications, assurances et hypothèques avec service personnalisé en anglais.',
       quickLinks: 'Liens Rapides',
       servicesTitle: 'Services',
       copyright: 'Tous droits réservés',
