@@ -25,7 +25,7 @@ export const translations = {
       text2: 'The 2009 financial crisis led me to expand the services I offer. Since then, I have been helping my clients with telecommunications contracts, internet and mobile phone plans, as well as mortgages. 3 years ago, I also became an insurance broker.',
       text3: 'Thanks to my excellent English, I have specialized in helping English-speaking immigrants with their needs, not charging my clients for consulting services.',
       highlight1: 'Born in Central Portugal, grew up in Canada (Toronto)',
-      highlight2: 'Experience in real estate, telecommunications and insurance',
+      highlight2: 'Experience in telecommunications, insurance and mortgages',
       highlight3: 'Specialized in serving English-speaking clients',
       highlight4: 'Consulting services at no cost to clients'
     },
