@@ -1,4 +1,4 @@
-import { Wifi, Shield, Home, DollarSign } from 'lucide-react';
+import { Wifi, Shield, DollarSign } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 import { useLanguage } from '../context/LanguageContext';
 
