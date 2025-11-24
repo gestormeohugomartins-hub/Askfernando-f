@@ -116,7 +116,7 @@ export const translations = {
       title: 'À Propos de',
       titleHighlight: 'Moi',
       text1: 'Né au Portugal Central, j\'ai déménagé au Canada (Toronto) à un jeune âge, où j\'ai grandi jusqu\'à 17 ans. De retour au Portugal, j\'ai terminé mes études et commencé ma carrière d\'agent immobilier.',
-      text2: 'La crise financière de 2009 m\'a conduit à élargir les services que j\'offre. Depuis, j\'aide mes clients avec des contrats de télécommunications, internet et téléphone mobile, ainsi que des hypothèques. Il y a 3 ans, je suis également devenu courtier d\'assurance.',
+      text2: 'La crise financière de 2009 m\'a conduit à élargir les services que j\'offre. Depuis, j\'aide mes clients avec des contrats de télécommunications, forfaits internet et mobile, ainsi que des hypothèques. Il y a 3 ans, je suis également devenu courtier d\'assurance.',
       text3: 'Grâce à mon excellent anglais, je me suis spécialisé dans l\'aide aux immigrants anglophones avec leurs besoins, sans facturer mes clients pour les services de conseil.',
       highlight1: 'Né au Portugal Central, a grandi au Canada (Toronto)',
       highlight2: 'Expérience en immobilier, télécommunications et assurances',
