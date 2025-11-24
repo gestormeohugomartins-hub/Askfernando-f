@@ -22,7 +22,7 @@ export const translations = {
       title: 'About',
       titleHighlight: 'Me',
       text1: 'Born in Central Portugal, I moved to Canada (Toronto) at a young age, where I grew up until I was 17 years old. Upon returning to Portugal, I completed my studies and began my career as a real estate agent.',
-      text2: 'The 2009 financial crisis led me to expand the services I offer. Since then, I have been helping my clients with telecommunications contracts, internet and mobile phone, as well as mortgages. 3 years ago, I also became an insurance broker.',
+      text2: 'The 2009 financial crisis led me to expand the services I offer. Since then, I have been helping my clients with telecommunications contracts, internet and mobile phone plans, as well as mortgages. 3 years ago, I also became an insurance broker.',
       text3: 'Thanks to my excellent English, I have specialized in helping English-speaking immigrants with their needs, not charging my clients for consulting services.',
       highlight1: 'Born in Central Portugal, grew up in Canada (Toronto)',
       highlight2: 'Experience in real estate, telecommunications and insurance',
