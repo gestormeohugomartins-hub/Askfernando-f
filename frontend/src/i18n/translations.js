@@ -271,7 +271,7 @@ export const translations = {
       errorDescription: 'Por favor, tente novamente.'
     },
     footer: {
-      description: 'Especialista em serviços para imigrantes em Portugal. Telecomunicações, seguros, imobiliário e hipotecas com atendimento personalizado em inglês.',
+      description: 'Especialista em serviços para imigrantes em Portugal. Telecomunicações, seguros e hipotecas com atendimento personalizado em inglês.',
       quickLinks: 'Links Rápidos',
       servicesTitle: 'Serviços',
       copyright: 'Todos os direitos reservados',
