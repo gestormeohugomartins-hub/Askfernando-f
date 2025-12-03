@@ -221,7 +221,7 @@ export const translations = {
       settingsTitle: 'Préférences des Cookies',
       settingsDesc: 'Gérez vos préférences de cookies. Vous pouvez activer ou désactiver différents types de cookies ci-dessous.',
       necessaryTitle: 'Cookies Nécessaires',
-      necessaryDesc: 'Ces cookies sont essentiels au bon fonctionnement du site web. Ils permettent des fonctions de base comme la navigation et l\\'accès aux zones sécurisées.',
+      necessaryDesc: 'Ces cookies sont essentiels au bon fonctionnement du site web. Ils permettent des fonctions de base comme la navigation et l\'accès aux zones sécurisées.',
       analyticsTitle: 'Cookies Analytiques',
       analyticsDesc: 'Ces cookies nous aident à comprendre comment les visiteurs interagissent avec notre site en collectant et en rapportant des informations de manière anonyme.',
       marketingTitle: 'Cookies Marketing',
