@@ -91,6 +91,29 @@ export const translations = {
     },
     whatsapp: {
       message: 'Hello! I would like to know more about your services.'
+    },
+    cookies: {
+      title: 'Cookie Consent',
+      description: 'We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.',
+      privacyLink: 'Privacy Policy',
+      cookieLink: 'Cookie Policy',
+      and: 'and',
+      settings: 'Settings',
+      necessary: 'Necessary Only',
+      acceptAll: 'Accept All',
+      settingsTitle: 'Cookie Preferences',
+      settingsDesc: 'Manage your cookie preferences. You can enable or disable different types of cookies below.',
+      necessaryTitle: 'Necessary Cookies',
+      necessaryDesc: 'These cookies are essential for the website to function properly. They enable basic functions like page navigation and access to secure areas.',
+      analyticsTitle: 'Analytics Cookies',
+      analyticsDesc: 'These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously.',
+      marketingTitle: 'Marketing Cookies',
+      marketingDesc: 'These cookies are used to track visitors across websites to display relevant advertisements.',
+      required: 'Required',
+      info: 'You can change these preferences at any time by clicking the cookie settings link in the footer.',
+      cancel: 'Cancel',
+      savePreferences: 'Save Preferences',
+      cookieSettings: 'Cookie Settings'
     }
   },
   fr: {
