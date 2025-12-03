@@ -225,7 +225,7 @@ export const translations = {
       analyticsTitle: 'Cookies Analytiques',
       analyticsDesc: 'Ces cookies nous aident à comprendre comment les visiteurs interagissent avec notre site en collectant et en rapportant des informations de manière anonyme.',
       marketingTitle: 'Cookies Marketing',
-      marketingDesc: 'Ces cookies sont utilisés pour suivre les visiteurs sur les sites web afin d\\'afficher des publicités pertinentes.',
+      marketingDesc: 'Ces cookies sont utilisés pour suivre les visiteurs sur les sites web afin d\'afficher des publicités pertinentes.',
       required: 'Requis',
       info: 'Vous pouvez modifier ces préférences à tout moment en cliquant sur le lien des paramètres des cookies dans le pied de page.',
       cancel: 'Annuler',
