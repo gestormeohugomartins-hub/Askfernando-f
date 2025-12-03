@@ -325,6 +325,29 @@ export const translations = {
     },
     whatsapp: {
       message: 'Olá! Gostaria de saber mais sobre os seus serviços.'
+    },
+    cookies: {
+      title: 'Consentimento de Cookies',
+      description: 'Usamos cookies para melhorar a sua experiência de navegação, servir conteúdo personalizado e analisar o nosso tráfego. Ao clicar em \"Aceitar Tudo\", consente o nosso uso de cookies.',
+      privacyLink: 'Política de Privacidade',
+      cookieLink: 'Política de Cookies',
+      and: 'e',
+      settings: 'Definições',
+      necessary: 'Apenas Necessários',
+      acceptAll: 'Aceitar Tudo',
+      settingsTitle: 'Preferências de Cookies',
+      settingsDesc: 'Gerir as suas preferências de cookies. Pode ativar ou desativar diferentes tipos de cookies abaixo.',
+      necessaryTitle: 'Cookies Necessários',
+      necessaryDesc: 'Estes cookies são essenciais para o funcionamento do website. Permitem funções básicas como navegação de páginas e acesso a áreas seguras.',
+      analyticsTitle: 'Cookies Analíticos',
+      analyticsDesc: 'Estes cookies ajudam-nos a compreender como os visitantes interagem com o nosso website, recolhendo e reportando informações anonimamente.',
+      marketingTitle: 'Cookies de Marketing',
+      marketingDesc: 'Estes cookies são usados para rastrear visitantes através de websites para exibir anúncios relevantes.',
+      required: 'Obrigatório',
+      info: 'Pode alterar estas preferências a qualquer momento clicando no link de definições de cookies no rodapé.',
+      cancel: 'Cancelar',
+      savePreferences: 'Guardar Preferências',
+      cookieSettings: 'Definições de Cookies'
     }
   }
 };
