@@ -208,6 +208,29 @@ export const translations = {
     },
     whatsapp: {
       message: 'Bonjour! Je voudrais en savoir plus sur vos services.'
+    },
+    cookies: {
+      title: 'Consentement aux Cookies',
+      description: 'Nous utilisons des cookies pour améliorer votre expérience de navigation, servir du contenu personnalisé et analyser notre trafic. En cliquant sur \"Tout Accepter\", vous consentez à notre utilisation des cookies.',
+      privacyLink: 'Politique de Confidentialité',
+      cookieLink: 'Politique des Cookies',
+      and: 'et',
+      settings: 'Paramètres',
+      necessary: 'Nécessaires Seulement',
+      acceptAll: 'Tout Accepter',
+      settingsTitle: 'Préférences des Cookies',
+      settingsDesc: 'Gérez vos préférences de cookies. Vous pouvez activer ou désactiver différents types de cookies ci-dessous.',
+      necessaryTitle: 'Cookies Nécessaires',
+      necessaryDesc: 'Ces cookies sont essentiels au bon fonctionnement du site web. Ils permettent des fonctions de base comme la navigation et l\\'accès aux zones sécurisées.',
+      analyticsTitle: 'Cookies Analytiques',
+      analyticsDesc: 'Ces cookies nous aident à comprendre comment les visiteurs interagissent avec notre site en collectant et en rapportant des informations de manière anonyme.',
+      marketingTitle: 'Cookies Marketing',
+      marketingDesc: 'Ces cookies sont utilisés pour suivre les visiteurs sur les sites web afin d\\'afficher des publicités pertinentes.',
+      required: 'Requis',
+      info: 'Vous pouvez modifier ces préférences à tout moment en cliquant sur le lien des paramètres des cookies dans le pied de page.',
+      cancel: 'Annuler',
+      savePreferences: 'Enregistrer les Préférences',
+      cookieSettings: 'Paramètres des Cookies'
     }
   },
   pt: {
