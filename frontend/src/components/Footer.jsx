@@ -75,9 +75,30 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-gray-400 text-sm">
-              &copy; {new Date().getFullYear()} AskFernando.pt - {t.footer.copyright}
-            </p>
+            <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
+              <p className="text-gray-400 text-sm">
+                &copy; {new Date().getFullYear()} AskFernando.pt - {t.footer.copyright}
+              </p>
+              <div className="flex items-center space-x-4 text-sm">
+                <a href="/privacy-policy" className="text-gray-400 hover:text-orange-500 transition-colors">
+                  {t.cookies?.privacyLink || 'Privacy Policy'}
+                </a>
+                <span className="text-gray-600">|</span>
+                <a href="/cookie-policy" className="text-gray-400 hover:text-orange-500 transition-colors">
+                  {t.cookies?.cookieLink || 'Cookie Policy'}
+                </a>
+                <span className="text-gray-600">|</span>
+                <button 
+                  onClick={() => {
+                    localStorage.removeItem('cookieConsent');
+                    window.location.reload();
+                  }}
+                  className="text-gray-400 hover:text-orange-500 transition-colors"
+                >
+                  {t.cookies?.cookieSettings || 'Cookie Settings'}
+                </button>
+              </div>
+            </div>
             <p className="text-gray-400 text-sm">
               {t.footer.tagline}
             </p>
