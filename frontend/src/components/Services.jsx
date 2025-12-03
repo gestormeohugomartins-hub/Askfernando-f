@@ -21,7 +21,7 @@ const Services = () => {
       color: 'from-orange-500 to-orange-600'
     },
     {
-      icon: <DollarSign className="h-12 w-12" />,
+      icon: <Euro className="h-12 w-12" />,
       title: t.services.mortgages.title,
       description: t.services.mortgages.description,
       image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40',
