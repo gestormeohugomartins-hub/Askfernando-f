@@ -79,7 +79,7 @@ const Footer = () => {
               <p className="text-gray-400 text-sm">
                 &copy; {new Date().getFullYear()} AskFernando.pt - {t.footer.copyright}
               </p>
-              <div className="flex items-center space-x-4 text-sm">
+              <div className="flex items-center flex-wrap justify-center gap-x-4 gap-y-2 text-sm">
                 <a href="/privacy-policy" className="text-gray-400 hover:text-orange-500 transition-colors">
                   {t.cookies?.privacyLink || 'Privacy Policy'}
                 </a>
@@ -97,6 +97,20 @@ const Footer = () => {
                 >
                   {t.cookies?.cookieSettings || 'Cookie Settings'}
                 </button>
+                <span className="text-gray-600">|</span>
+                <a 
+                  href={`${process.env.REACT_APP_BACKEND_URL}/api/admin/contact-messages`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-1"
+                  title="Admin Backend Access"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                  </svg>
+                  Admin
+                </a>
               </div>
             </div>
             <p className="text-gray-400 text-sm">
