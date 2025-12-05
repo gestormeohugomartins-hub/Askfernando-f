@@ -84,7 +84,7 @@ const Testimonials = () => {
 
               <div className="mt-12 text-center">
                 <p className="text-gray-600 text-lg">
-                  {t.testimonials.footer}
+                  More than <span className="font-bold text-blue-600">3000 satisfied clients</span> since 2007
                 </p>
               </div>
             </>
