@@ -45,6 +45,10 @@ const About = () => {
                 {t.about.text3}
               </p>
 
+              <p className="text-lg text-gray-700 leading-relaxed">
+                {t.about.text4}
+              </p>
+
               <div className="mt-8 space-y-4">
                 {highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start space-x-3">
