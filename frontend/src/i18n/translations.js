@@ -294,7 +294,7 @@ export const translations = {
       title: 'O Que Dizem os',
       titleHighlight: 'Clientes',
       subtitle: 'Testemunhos reais de clientes satisfeitos',
-      footer: 'Mais de 500 clientes satisfeitos desde 2009'
+      footer: 'Mais de 3000 clientes satisfeitos desde 2007'
     },
     contact: {
       title: 'Entre em',
