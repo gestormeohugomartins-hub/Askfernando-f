@@ -256,13 +256,14 @@ export const translations = {
     about: {
       title: 'Sobre',
       titleHighlight: 'Mim',
-      text1: 'Nascido em Portugal Central, mudei-me para o Canadá (Toronto) ainda jovem, onde cresci até aos 17 anos. Ao regressar a Portugal, completei os meus estudos e iniciei a minha carreira como agente imobiliário.',
-      text2: 'A crise financeira de 2009 levou-me a expandir os serviços que ofereço. Desde então, tenho ajudado os meus clientes com contratos de telecomunicações, internet e telemóvel, bem como hipotecas. Há 3 anos, também me tornei corretor de seguros.',
-      text3: 'Graças ao meu excelente inglês, especializei-me em ajudar imigrantes de língua inglesa com as suas necessidades, não cobrando aos meus clientes pelos serviços de consultoria.',
+      text1: 'Nascido em Portugal Central, cresci em Toronto - Canadá, o que me permitiu ter a mesma perspetiva de muitos emigrantes que se mudam, especialmente as dificuldades de se mudar para um novo país. Muitas vezes parece estar a bater contra uma parede, mas com os meus anos de experiência posso tornar a sua mudança o mais suave possível.',
+      text2: 'Ser um falante nativo de português garante que qualquer problema pode ser resolvido e o idioma nunca será uma barreira, bem como evitar preços mais elevados apenas porque o cliente é emigrante.',
+      text3: 'Comecei a minha carreira como agente imobiliário em 2007, até à crise financeira de 2009. Esta experiência permitiu-me ver toda a lista de verificação pós-venda que precisa de ser tratada, especialmente serviços públicos e seguros.',
+      text4: 'Após 12 anos de contacto próximo com uma rede de especialistas em vários campos de negócios para emigrantes, ganhei a experiência necessária para começar a trabalhar no meu próprio negócio em 2021 durante a Covid. Com uma grande procura de emigrantes para encontrar ajuda profissional para se mudarem para Portugal e obterem os serviços necessários, vi esta oportunidade como uma chance de fazer o que sempre adorei fazer, ajudar emigrantes e clientes Portugueses a viver a vida dos sonhos em Portugal.',
       highlight1: 'Nascido em Portugal Central, cresceu no Canadá (Toronto)',
-      highlight2: 'Experiência em telecomunicações, seguros e hipotecas',
-      highlight3: 'Especializado em atender clientes de língua inglesa',
-      highlight4: 'Serviços de consultoria sem custos para os clientes'
+      highlight2: 'Falante Nativo de Português',
+      highlight3: 'Experiência em Utilities, Seguros e Hipotecas',
+      highlight4: 'Especializado em ajudar Emigrantes e clientes Portugueses'
     },
     services: {
       title: 'Serviços',
