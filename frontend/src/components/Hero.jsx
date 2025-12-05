@@ -66,7 +66,7 @@ const Hero = () => {
               <div className="text-gray-300">{t.hero.stat2}</div>
             </div>
             <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
-              <div className="text-3xl font-bold text-orange-500 mb-2">500+</div>
+              <div className="text-3xl font-bold text-orange-500 mb-2">3000+</div>
               <div className="text-gray-300">{t.hero.stat3}</div>
             </div>
           </div>
