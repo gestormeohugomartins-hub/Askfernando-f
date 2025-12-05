@@ -176,7 +176,7 @@ export const translations = {
       title: 'Ce Que Disent les',
       titleHighlight: 'Clients',
       subtitle: 'Témoignages réels de clients satisfaits',
-      footer: 'Plus de 500 clients satisfaits depuis 2009'
+      footer: 'Plus de 3000 clients satisfaits depuis 2007'
     },
     contact: {
       title: 'Contactez',
