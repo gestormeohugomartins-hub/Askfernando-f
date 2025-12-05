@@ -183,7 +183,7 @@ export const translations = {
       titleHighlight: 'Nous',
       subtitle: 'Prêt à vous aider avec tous vos services au Portugal',
       infoTitle: 'Informations de Contact',
-      infoText: 'Service en anglais et portugais. Contactez-nous pour toute clarification ou pour planifier une consultation gratuite.',
+      infoText: 'Service en anglais et portugais. Contactez-nous pour toute clarification ou pour planifier une réunion.',
       email: 'Email',
       phone: 'Téléphone / WhatsApp',
       formTitle: 'Envoyer un Message',
