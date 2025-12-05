@@ -15,7 +15,7 @@ class EmailService:
         self.from_email = os.environ.get('SMTP_FROM_EMAIL', 'contactos@askfernando.pt')
         self.to_email = os.environ.get('SMTP_TO_EMAIL', 'fernandomendes@askfernando.pt')
 
-    async def send_contact_email(self, name: str, email: str, phone: str, message: str, language: str):
+    async def send_contact_email(self, name: str, email: str, phone: str, service: str, message: str, language: str):
         """Send contact form email to Fernando"""
         try:
             # Create message
@@ -60,6 +60,10 @@ class EmailService:
                       <div class="value">{phone if phone else 'Not provided'}</div>
                     </div>
                     <div class="field">
+                      <div class="label">Service of Interest:</div>
+                      <div class="value">{service.title() if service else 'Not specified'}</div>
+                    </div>
+                    <div class="field">
                       <div class="label">Language:</div>
                       <div class="value">{language.upper()}</div>
                     </div>
@@ -83,6 +87,7 @@ class EmailService:
             Name: {name}
             Email: {email}
             Phone: {phone if phone else 'Not provided'}
+            Service: {service.title() if service else 'Not specified'}
             Language: {language.upper()}
             
             Message:
