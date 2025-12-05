@@ -301,7 +301,7 @@ export const translations = {
       titleHighlight: 'Contacto',
       subtitle: 'Pronto para ajudá-lo com todos os seus serviços em Portugal',
       infoTitle: 'Informações de Contacto',
-      infoText: 'Atendimento em inglês e português. Entre em contacto para qualquer esclarecimento ou para marcar uma consulta gratuita.',
+      infoText: 'Atendimento em inglês e português. Entre em contacto para qualquer esclarecimento ou para marcar uma reunião.',
       email: 'Email',
       phone: 'Telefone / WhatsApp',
       formTitle: 'Envie uma Mensagem',
