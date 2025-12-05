@@ -139,13 +139,14 @@ export const translations = {
     about: {
       title: 'À Propos de',
       titleHighlight: 'Moi',
-      text1: 'Né au Portugal Central, j\'ai déménagé au Canada (Toronto) à un jeune âge, où j\'ai grandi jusqu\'à 17 ans. De retour au Portugal, j\'ai terminé mes études et commencé ma carrière d\'agent immobilier.',
-      text2: 'La crise financière de 2009 m\'a conduit à élargir les services que j\'offre. Depuis, j\'aide mes clients avec des contrats de télécommunications, forfaits internet et mobile, ainsi que des hypothèques. Il y a 3 ans, je suis également devenu courtier d\'assurance.',
-      text3: 'Grâce à mon excellent anglais, je me suis spécialisé dans l\'aide aux immigrants anglophones avec leurs besoins, sans facturer mes clients pour les services de conseil.',
+      text1: 'Né au Portugal Central, j\'ai grandi à Toronto - Canada, ce qui m\'a permis d\'avoir la même perspective que de nombreux expatriés qui déménagent, en particulier les difficultés de s\'installer dans un nouveau pays. Souvent, cela ressemble à se heurter à un mur, mais avec mes années d\'expérience, je peux rendre votre déménagement aussi fluide que possible.',
+      text2: 'Étant moi-même locuteur natif portugais, je garantis que tout problème peut être résolu et que la langue ne sera jamais un obstacle, tout en évitant des prix plus élevés simplement parce que le client est expatrié.',
+      text3: 'J\'ai commencé ma carrière en tant qu\'agent immobilier en 2007, jusqu\'à la crise financière de 2009. Cette expérience m\'a permis de voir toutes les différentes listes de vérification après-vente qui doivent être traitées, en particulier les services publics et les assurances.',
+      text4: 'Après 12 ans de contact étroit avec un réseau de spécialistes dans divers domaines du secteur des expatriés, j\'ai acquis l\'expérience nécessaire pour démarrer ma propre entreprise en 2021 pendant la Covid. Avec une forte demande d\'expatriés pour trouver une aide professionnelle pour s\'installer au Portugal et obtenir les services nécessaires, j\'ai vu cette opportunité comme une chance de faire ce que j\'ai toujours aimé faire, aider les expatriés à venir vivre la vie de leurs rêves au Portugal.',
       highlight1: 'Né au Portugal Central, a grandi au Canada (Toronto)',
-      highlight2: 'Expérience en télécommunications, assurances et hypothèques',
-      highlight3: 'Spécialisé dans le service aux clients anglophones',
-      highlight4: 'Services de conseil sans frais pour les clients'
+      highlight2: 'Locuteur Natif Portugais',
+      highlight3: 'Expérience en Services Publics, Assurances et Hypothèques',
+      highlight4: 'Spécialisé dans l\'aide aux Expatriés'
     },
     services: {
       title: 'Services',
