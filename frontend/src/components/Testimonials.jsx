@@ -1,8 +1,9 @@
-import { Star, Quote } from 'lucide-react';
+import { Star, Quote, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 import { useLanguage } from '../context/LanguageContext';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import { Button } from './ui/button';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
@@ -11,6 +12,8 @@ const Testimonials = () => {
   const { t, language } = useLanguage();
   const [testimonials, setTestimonials] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const testimonialsPerPage = 4;
 
   useEffect(() => {
     const fetchTestimonials = async () => {
@@ -18,10 +21,11 @@ const Testimonials = () => {
         const response = await axios.get(`${API}/testimonials`, {
           params: { language, approved_only: true }
         });
-        setTestimonials(response.data);
+        // Filter testimonials with rating > 4
+        const filtered = response.data.filter(t => (t.rating || 5) >= 4);
+        setTestimonials(filtered);
       } catch (error) {
         console.error('Error fetching testimonials:', error);
-        // Fallback to showing no testimonials if API fails
         setTestimonials([]);
       } finally {
         setLoading(false);
@@ -30,6 +34,35 @@ const Testimonials = () => {
 
     fetchTestimonials();
   }, [language]);
+
+  // Auto-rotate testimonials every 8 seconds
+  useEffect(() => {
+    if (testimonials.length <= testimonialsPerPage) return;
+
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => {
+        const maxIndex = Math.ceil(testimonials.length / testimonialsPerPage) - 1;
+        return prevIndex >= maxIndex ? 0 : prevIndex + 1;
+      });
+    }, 8000);
+
+    return () => clearInterval(interval);
+  }, [testimonials]);
+
+  const nextSlide = () => {
+    const maxIndex = Math.ceil(testimonials.length / testimonialsPerPage) - 1;
+    setCurrentIndex((prevIndex) => (prevIndex >= maxIndex ? 0 : prevIndex + 1));
+  };
+
+  const prevSlide = () => {
+    const maxIndex = Math.ceil(testimonials.length / testimonialsPerPage) - 1;
+    setCurrentIndex((prevIndex) => (prevIndex <= 0 ? maxIndex : prevIndex - 1));
+  };
+
+  const getCurrentTestimonials = () => {
+    const start = currentIndex * testimonialsPerPage;
+    return testimonials.slice(start, start + testimonialsPerPage);
+  };
 
   return (
     <section id="testimonials" className="py-20 bg-white">
