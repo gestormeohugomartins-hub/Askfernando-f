@@ -58,7 +58,7 @@ export const translations = {
       title: 'What',
       titleHighlight: 'Clients Say',
       subtitle: 'Real testimonials from satisfied clients',
-      footer: 'More than 500 satisfied clients since 2009'
+      footer: 'More than 3000 satisfied clients since 2007'
     },
     contact: {
       title: 'Get in',
