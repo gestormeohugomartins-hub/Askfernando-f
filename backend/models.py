@@ -8,6 +8,7 @@ class ContactMessage(BaseModel):
     name: str
     email: EmailStr
     phone: Optional[str] = None
+    service: Optional[str] = None
     message: str
     created_at: datetime = Field(default_factory=datetime.utcnow)
     status: str = "new"  # new, read, replied
@@ -17,6 +18,7 @@ class ContactMessageCreate(BaseModel):
     name: str
     email: EmailStr
     phone: Optional[str] = None
+    service: Optional[str] = None
     message: str
     language: str = "en"
 
