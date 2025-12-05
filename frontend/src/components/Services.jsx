@@ -5,6 +5,23 @@ import { useLanguage } from '../context/LanguageContext';
 
 const Services = () => {
   const { t } = useLanguage();
+
+  const handleMoreInfo = (serviceId) => {
+    // Scroll to contact section with service pre-selected
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      // Update URL with service parameter
+      const url = new URL(window.location);
+      url.searchParams.set('service', serviceId);
+      window.history.pushState({}, '', url);
+      
+      // Scroll to contact
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+      
+      // Trigger a custom event to update the form
+      window.dispatchEvent(new CustomEvent('serviceSelected', { detail: { service: serviceId } }));
+    }
+  };
   
   const services = [
     {
