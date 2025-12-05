@@ -1,4 +1,4 @@
-import { Wifi, Shield, Euro } from 'lucide-react';
+import { Wifi, Shield, Euro, Zap } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 import { useLanguage } from '../context/LanguageContext';
 
