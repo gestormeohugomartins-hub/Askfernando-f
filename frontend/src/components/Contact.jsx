@@ -1,7 +1,7 @@
 import { Mail, Phone, Send } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card, CardContent } from './ui/card';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { toast } from 'sonner';
 import { useLanguage } from '../context/LanguageContext';
 import axios from 'axios';
