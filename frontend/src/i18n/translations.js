@@ -65,7 +65,7 @@ export const translations = {
       titleHighlight: 'Touch',
       subtitle: 'Ready to help you with all your services in Portugal',
       infoTitle: 'Contact Information',
-      infoText: 'Service in English and Portuguese. Get in touch for any clarification or to schedule a free consultation.',
+      infoText: 'Service in English and Portuguese. Get in touch for any clarification or to schedule a meeting.',
       email: 'Email',
       phone: 'Phone / WhatsApp',
       formTitle: 'Send a Message',
