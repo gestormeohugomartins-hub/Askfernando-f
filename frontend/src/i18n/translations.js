@@ -36,19 +36,19 @@ export const translations = {
       subtitle: 'Complete solutions to make your life easier in Portugal',
       telecom: {
         title: 'Telecommunications',
-        description: 'Home internet contracts, mobile phone plans and complete packages. Fast and efficient setup with the best providers (MEO, NOS, Vodafone).'
+        description: 'Home internet contracts (Fiber), Mobile phone plans (E-SIMS/Physical SIMS) and Bundles. Fast and efficient setup with the best providers in your area (MEO, NOS, and Vodafone). Contract can be prepared online while you are overseas so that internet is working on the day you arrive.'
+      },
+      electricity: {
+        title: 'Electricity/Gas',
+        description: 'In an increasingly competitive market for Electricity and Natural Gas, don\'t be fooled by false discounts or additional services that add nothing to the quality of supply. If you are just arriving in Portugal, or moving to a new home, prepare your arrival so you won\'t be left in the dark.'
       },
       insurance: {
         title: 'Insurance',
-        description: 'Car, home, health and life insurance. Comparative analysis to find the best coverage at competitive prices.'
-      },
-      realEstate: {
-        title: 'Real Estate',
-        description: 'Complete real estate consultancy for buying, selling and renting. Specialized support at all stages of the process.'
+        description: 'Car, Health, House, Life, and Travel insurance. Working with 10 different companies to find the best coverage at competitive prices. Click here for the checklist of info needed for a quote.'
       },
       mortgages: {
         title: 'Mortgages',
-        description: 'Home loan advisory, rate and condition negotiation. Simplified process and guidance at every step.'
+        description: 'Property mortgages and personal loans to fit your needs. Whether you need a new mortgage/loan, or looking into getting better conditions then your previous Mortgage/loan, my team of mortgage partners can find you the best rates on the market. Simplified process and guidance at every step.'
       },
       noCost: 'Consulting',
       noCostHighlight: 'at No Cost',
