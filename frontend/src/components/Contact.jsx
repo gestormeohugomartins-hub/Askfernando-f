@@ -47,6 +47,7 @@ const Contact = () => {
         name: '',
         email: '',
         phone: '',
+        service: '',
         message: ''
       });
     } catch (error) {
