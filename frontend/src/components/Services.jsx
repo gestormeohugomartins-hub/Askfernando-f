@@ -25,6 +25,7 @@ const Services = () => {
   
   const services = [
     {
+      id: 'telecommunications',
       icon: <Wifi className="h-12 w-12" />,
       title: t.services.telecom.title,
       description: t.services.telecom.description,
@@ -32,6 +33,7 @@ const Services = () => {
       color: 'from-blue-500 to-blue-600'
     },
     {
+      id: 'electricity',
       icon: <Zap className="h-12 w-12" />,
       title: t.services.electricity.title,
       description: t.services.electricity.description,
@@ -39,6 +41,7 @@ const Services = () => {
       color: 'from-yellow-500 to-orange-500'
     },
     {
+      id: 'insurance',
       icon: <Shield className="h-12 w-12" />,
       title: t.services.insurance.title,
       description: t.services.insurance.description,
@@ -46,6 +49,7 @@ const Services = () => {
       color: 'from-orange-500 to-orange-600'
     },
     {
+      id: 'mortgages',
       icon: <Euro className="h-12 w-12" />,
       title: t.services.mortgages.title,
       description: t.services.mortgages.description,
