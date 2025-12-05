@@ -197,6 +197,27 @@ const Contact = () => {
                   </div>
 
                   <div>
+                    <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">
+                      {t.contact.serviceLabel || 'Service of Interest'}
+                    </label>
+                    <select
+                      id="service"
+                      name="service"
+                      value={formData.service}
+                      onChange={handleChange}
+                      disabled={isSubmitting}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all disabled:opacity-50 disabled:cursor-not-allowed bg-white"
+                    >
+                      <option value="">{t.contact.serviceDefault || 'Select a service...'}</option>
+                      <option value="telecommunications">{t.services.telecom.title}</option>
+                      <option value="electricity">{t.services.electricity.title}</option>
+                      <option value="insurance">{t.services.insurance.title}</option>
+                      <option value="mortgages">{t.services.mortgages.title}</option>
+                      <option value="other">{t.contact.serviceOther || 'Other'}</option>
+                    </select>
+                  </div>
+
+                  <div>
                     <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                       {t.contact.messageLabel}
                     </label>
