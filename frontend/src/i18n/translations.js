@@ -272,19 +272,19 @@ export const translations = {
       subtitle: 'Soluções completas para facilitar a sua vida em Portugal',
       telecom: {
         title: 'Telecomunicações',
-        description: 'Contratos de internet para casa, planos de telemóvel e pacotes completos. Configuração rápida e eficiente com os melhores fornecedores (MEO, NOS, Vodafone).'
+        description: 'Contratos de internet para casa (Fibra óptica), Planos de telemóvel e pacotes completos. Os melhores preços com as principais Operadoras (MEO, NOS, e Vodafone).'
+      },
+      electricity: {
+        title: 'Eletricidade/Gás',
+        description: 'Num mercado cada vez mais competitivo de Eletricidade e Gás Natural, não se deixe enganar com falsos descontos nem serviços adicionais que nada acrescenta à qualidade do fornecimento. Se vem agora para Portugal, ou vai para uma nova casa, prepare a sua chegada para não ficar às escuras.'
       },
       insurance: {
         title: 'Seguros',
-        description: 'Seguros de automóvel, habitação, saúde e vida. Análise comparativa para encontrar a melhor cobertura com preços competitivos.'
-      },
-      realEstate: {
-        title: 'Imobiliário',
-        description: 'Consultoria imobiliária completa para compra, venda e arrendamento. Suporte especializado em todas as fases do processo.'
+        description: 'Seguros de Automóvel, Saúde, Casa, Vida e Viagem. Trabalhando com 10 empresas diferentes para encontrar a melhor cobertura a preços competitivos. Clique aqui para a lista de informações necessárias para um orçamento.'
       },
       mortgages: {
         title: 'Hipotecas',
-        description: 'Assessoria em crédito habitação, negociação de taxas e condições. Processo simplificado e orientação em cada etapa.'
+        description: 'Hipotecas de propriedade e empréstimos pessoais para atender às suas necessidades. Se precisa de uma nova hipoteca/empréstimo, ou procura obter melhores condições do que a sua hipoteca/empréstimo anterior, a minha equipa de parceiros hipotecários pode encontrar as melhores taxas do mercado. Processo simplificado e orientação em cada etapa.'
       },
       noCost: 'Consultoria',
       noCostHighlight: 'Sem Custos',
