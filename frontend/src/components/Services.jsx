@@ -14,6 +14,13 @@ const Services = () => {
       color: 'from-blue-500 to-blue-600'
     },
     {
+      icon: <Zap className="h-12 w-12" />,
+      title: t.services.electricity.title,
+      description: t.services.electricity.description,
+      image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e',
+      color: 'from-yellow-500 to-orange-500'
+    },
+    {
       icon: <Shield className="h-12 w-12" />,
       title: t.services.insurance.title,
       description: t.services.insurance.description,
