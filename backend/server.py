@@ -82,6 +82,7 @@ async def create_contact_message(contact: ContactMessageCreate):
                 name=contact.name,
                 email=contact.email,
                 phone=contact.phone or "",
+                service=contact.service or "",
                 message=contact.message,
                 language=contact.language
             )
