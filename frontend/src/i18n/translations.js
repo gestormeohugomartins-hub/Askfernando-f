@@ -52,7 +52,7 @@ export const translations = {
       },
       noCost: 'Consulting',
       noCostHighlight: 'at No Cost',
-      noCostText: 'I do not charge my clients for consulting services. I receive commission directly from partner companies, ensuring you receive the best service at no additional cost.'
+      noCostText: 'No charge for clients on any of the services. The utility companies pay me a standard sales commission, ensuring no additional cost for the client. I go the extra mile to get what you need.'
     },
     testimonials: {
       title: 'What',
