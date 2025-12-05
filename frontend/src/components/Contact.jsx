@@ -27,6 +27,14 @@ const Contact = () => {
     if (serviceParam) {
       setFormData(prev => ({ ...prev, service: serviceParam }));
     }
+
+    // Listen for service selection from service cards
+    const handleServiceSelected = (event) => {
+      setFormData(prev => ({ ...prev, service: event.detail.service }));
+    };
+
+    window.addEventListener('serviceSelected', handleServiceSelected);
+    return () => window.removeEventListener('serviceSelected', handleServiceSelected);
   }, []);
 
   const handleSubmit = async (e) => {
