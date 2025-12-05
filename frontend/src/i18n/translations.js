@@ -128,7 +128,7 @@ export const translations = {
       badge: 'Multi services à votre disposition',
       title: 'Nous Facilitons Votre Vie',
       titleHighlight: 'au Portugal',
-      subtitle: 'Spécialiste en aide aux immigrants anglophones avec télécommunications, assurances et hypothèques. Services de conseil sans frais supplémentaires.',
+      subtitle: 'Spécialisé dans l\'aide aux expatriés pour les services publics (Internet/Électricité/Gaz), les assurances et les hypothèques. Services totalement GRATUITS.',
       ctaPrimary: 'Contactez-nous',
       ctaSecondary: 'Découvrir les Services',
       stat1: 'Ans d\'Expérience',
