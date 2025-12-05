@@ -1,5 +1,6 @@
-import { Wifi, Shield, Euro, Zap } from 'lucide-react';
+import { Wifi, Shield, Euro, Zap, Info } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
+import { Button } from './ui/button';
 import { useLanguage } from '../context/LanguageContext';
 
 const Services = () => {
