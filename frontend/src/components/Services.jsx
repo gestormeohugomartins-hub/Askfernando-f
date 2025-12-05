@@ -94,9 +94,18 @@ const Services = () => {
                   <h3 className="text-2xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-gray-600 leading-relaxed mb-4">
                     {service.description}
                   </p>
+                  <Button
+                    onClick={() => handleMoreInfo(service.id)}
+                    variant="outline"
+                    size="sm"
+                    className="mt-2 border-blue-600 text-blue-600 hover:bg-blue-50 hover:border-blue-700 transition-all duration-300 group/btn"
+                  >
+                    <Info className="h-4 w-4 mr-2 group-hover/btn:rotate-12 transition-transform" />
+                    + Info
+                  </Button>
                 </CardContent>
               </Card>
             ))}
