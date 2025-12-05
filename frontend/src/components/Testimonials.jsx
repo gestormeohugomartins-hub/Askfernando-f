@@ -85,35 +85,80 @@ const Testimonials = () => {
             </div>
           ) : testimonials.length > 0 ? (
             <>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {testimonials.slice(0, 6).map((testimonial, index) => (
-                  <Card 
-                    key={index}
-                    className="group hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-blue-200 bg-white relative overflow-hidden"
-                  >
-                    <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-orange-500/10 to-blue-500/10 rounded-bl-full"></div>
-                    
-                    <CardContent className="p-6 relative">
-                      <Quote className="h-8 w-8 text-orange-500 mb-4 opacity-50" />
+              <div className="relative">
+                {/* Navigation Buttons - Only show if more than 4 testimonials */}
+                {testimonials.length > testimonialsPerPage && (
+                  <>
+                    <Button
+                      onClick={prevSlide}
+                      variant="outline"
+                      size="icon"
+                      className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 bg-white shadow-lg hover:bg-gray-100 rounded-full h-12 w-12"
+                      aria-label="Previous testimonials"
+                    >
+                      <ChevronLeft className="h-6 w-6" />
+                    </Button>
+                    <Button
+                      onClick={nextSlide}
+                      variant="outline"
+                      size="icon"
+                      className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 bg-white shadow-lg hover:bg-gray-100 rounded-full h-12 w-12"
+                      aria-label="Next testimonials"
+                    >
+                      <ChevronRight className="h-6 w-6" />
+                    </Button>
+                  </>
+                )}
+
+                {/* Testimonials Grid */}
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                  {getCurrentTestimonials().map((testimonial, index) => (
+                    <Card 
+                      key={testimonial.id || index}
+                      className="group hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-blue-200 bg-white relative overflow-hidden"
+                    >
+                      <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-orange-500/10 to-blue-500/10 rounded-bl-full"></div>
                       
-                      <div className="flex mb-3">
-                        {[...Array(testimonial.rating || 5)].map((_, i) => (
-                          <Star key={i} className="h-4 w-4 fill-orange-500 text-orange-500" />
-                        ))}
-                      </div>
+                      <CardContent className="p-6 relative">
+                        <Quote className="h-8 w-8 text-orange-500 mb-4 opacity-50" />
+                        
+                        <div className="flex mb-3">
+                          {[...Array(testimonial.rating || 5)].map((_, i) => (
+                            <Star key={i} className="h-4 w-4 fill-orange-500 text-orange-500" />
+                          ))}
+                        </div>
 
-                      <p className="text-gray-700 mb-4 leading-relaxed line-clamp-6">
-                        {testimonial.text}
-                      </p>
+                        <p className="text-gray-700 mb-4 leading-relaxed line-clamp-6">
+                          {testimonial.text}
+                        </p>
 
-                      <div className="border-t border-gray-200 pt-4 mt-4">
-                        <p className="font-bold text-slate-900">{testimonial.name}</p>
-                        <p className="text-sm text-gray-500">{testimonial.location}</p>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
+                        <div className="border-t border-gray-200 pt-4 mt-4">
+                          <p className="font-bold text-slate-900">{testimonial.name}</p>
+                          <p className="text-sm text-gray-500">{testimonial.location}</p>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
               </div>
+
+              {/* Pagination Dots */}
+              {testimonials.length > testimonialsPerPage && (
+                <div className="flex justify-center gap-2 mt-8">
+                  {[...Array(Math.ceil(testimonials.length / testimonialsPerPage))].map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => setCurrentIndex(index)}
+                      className={`h-3 rounded-full transition-all duration-300 ${
+                        currentIndex === index
+                          ? 'w-8 bg-orange-600'
+                          : 'w-3 bg-gray-300 hover:bg-gray-400'
+                      }`}
+                      aria-label={`Go to testimonial page ${index + 1}`}
+                    />
+                  ))}
+                </div>
+              )}
 
               <div className="mt-12 text-center">
                 <p className="text-gray-600 text-lg">
