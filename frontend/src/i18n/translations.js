@@ -170,7 +170,7 @@ export const translations = {
       },
       noCost: 'Conseil',
       noCostHighlight: 'Sans Frais',
-      noCostText: 'Je ne facture pas mes clients pour les services de conseil. Je reçois une commission directement des entreprises partenaires, garantissant que vous recevez le meilleur service sans frais supplémentaires.'
+      noCostText: 'Aucun frais pour les clients sur aucun des services. Les entreprises de services publics me paient une commission de vente standard, garantissant aucun coût supplémentaire pour le client. Je fais tout mon possible pour obtenir ce dont vous avez besoin.'
     },
     testimonials: {
       title: 'Ce Que Disent les',
