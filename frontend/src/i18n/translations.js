@@ -154,19 +154,19 @@ export const translations = {
       subtitle: 'Solutions complètes pour faciliter votre vie au Portugal',
       telecom: {
         title: 'Télécommunications',
-        description: 'Contrats internet maison, forfaits mobiles et forfaits complets. Configuration rapide et efficace avec les meilleurs fournisseurs (MEO, NOS, Vodafone).'
+        description: 'Contrats internet maison (Fibre), forfaits de téléphone mobile (E-SIMS/SIMS Physiques) et forfaits. Configuration rapide et efficace avec les meilleurs fournisseurs de votre région (MEO, NOS et Vodafone). Le contrat peut être préparé en ligne pendant que vous êtes à l\'étranger afin qu\'Internet fonctionne le jour de votre arrivée.'
+      },
+      electricity: {
+        title: 'Électricité/Gaz',
+        description: 'Dans un marché de plus en plus compétitif de l\'électricité et du gaz naturel, ne vous laissez pas tromper par de fausses remises ou des services supplémentaires qui n\'ajoutent rien à la qualité de l\'approvisionnement. Si vous arrivez au Portugal ou déménagez dans une nouvelle maison, préparez votre arrivée pour ne pas rester dans le noir.'
       },
       insurance: {
         title: 'Assurances',
-        description: 'Assurances auto, habitation, santé et vie. Analyse comparative pour trouver la meilleure couverture à des prix compétitifs.'
-      },
-      realEstate: {
-        title: 'Immobilier',
-        description: 'Conseil immobilier complet pour l\'achat, la vente et la location. Support spécialisé à toutes les étapes du processus.'
+        description: 'Assurances Auto, Santé, Maison, Vie et Voyage. Travaillant avec 10 entreprises différentes pour trouver la meilleure couverture à des prix compétitifs. Cliquez ici pour la liste des informations nécessaires pour un devis.'
       },
       mortgages: {
         title: 'Hypothèques',
-        description: 'Conseil en prêt immobilier, négociation de taux et conditions. Processus simplifié et orientation à chaque étape.'
+        description: 'Hypothèques immobilières et prêts personnels adaptés à vos besoins. Que vous ayez besoin d\'une nouvelle hypothèque/prêt ou que vous cherchiez à obtenir de meilleures conditions que votre hypothèque/prêt précédent, mon équipe de partenaires hypothécaires peut vous trouver les meilleurs taux du marché. Processus simplifié et orientation à chaque étape.'
       },
       noCost: 'Conseil',
       noCostHighlight: 'Sans Frais',
