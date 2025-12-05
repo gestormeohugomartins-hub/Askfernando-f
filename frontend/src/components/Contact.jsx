@@ -15,9 +15,19 @@ const Contact = () => {
     name: '',
     email: '',
     phone: '',
+    service: '',
     message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+
+  // Check if service was pre-selected from URL
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const serviceParam = params.get('service');
+    if (serviceParam) {
+      setFormData(prev => ({ ...prev, service: serviceParam }));
+    }
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
