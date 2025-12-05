@@ -21,13 +21,14 @@ export const translations = {
     about: {
       title: 'About',
       titleHighlight: 'Me',
-      text1: 'Born in Central Portugal, I moved to Canada (Toronto) at a young age, where I grew up until I was 17 years old. Upon returning to Portugal, I completed my studies and began my career as a real estate agent.',
-      text2: 'The 2009 financial crisis led me to expand the services I offer. Since then, I have been helping my clients with telecommunications contracts, internet and mobile phone plans, as well as mortgages. 3 years ago, I also became an insurance broker.',
-      text3: 'Thanks to my excellent English, I have specialized in helping English-speaking immigrants with their needs, not charging my clients for consulting services.',
+      text1: 'Born in Central Portugal, I grew up in Toronto - Canada, which enabled me to have the same perspective as many expats moving over, especially the difficulties of moving to a new country. Many times it feels like hitting a wall, but with my years of experience I can make your move as smooth as possible.',
+      text2: 'Being a native Portuguese speaker myself, guarantees that any issue can be sorted and language never a barrier, as well as avoid higher prices just because the client is an expat.',
+      text3: 'I started my career as a real estate agent back in 2007, until the financial crisis of 2009. This experience allowed me to see all the different after sales checklist that needs to be dealt with, especially utilities and insurances.',
+      text4: 'After 12 years of close contact with a network of specialist in various fields of expat business, I gained the necessary experience to start working on my own business in 2021 during Covid. With a big demand form expats to find professional help to move to Portugal and get the needed services, I saw this opportunity as a chance to do what I always loved doing, helping expats come over to live the dream life in Portugal.',
       highlight1: 'Born in Central Portugal, grew up in Canada (Toronto)',
-      highlight2: 'Experience in telecommunications, insurance and mortgages',
-      highlight3: 'Specialized in serving English-speaking clients',
-      highlight4: 'Consulting services at no cost to clients'
+      highlight2: 'Portuguese Native speaker',
+      highlight3: 'Experience in Utilities, Insurance and Mortgages',
+      highlight4: 'Specialized in helping Expats'
     },
     services: {
       title: 'Services',
