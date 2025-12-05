@@ -20,6 +20,7 @@ const Footer = () => {
 
   const services = [
     t.services.telecom.title,
+    t.services.electricity.title,
     t.services.insurance.title,
     t.services.mortgages.title
   ];
