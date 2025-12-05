@@ -288,7 +288,7 @@ export const translations = {
       },
       noCost: 'Consultoria',
       noCostHighlight: 'Sem Custos',
-      noCostText: 'Não cobro aos meus clientes pelos serviços de consultoria. Recebo comissão diretamente das empresas parceiras, garantindo que você recebe o melhor serviço sem custos adicionais.'
+      noCostText: 'Sem custos para os clientes em nenhum dos serviços. As empresas de serviços públicos pagam-me uma comissão de vendas padrão, garantindo que não há custo adicional para o cliente. Faço tudo ao meu alcance para conseguir o que precisa.'
     },
     testimonials: {
       title: 'O Que Dizem os',
